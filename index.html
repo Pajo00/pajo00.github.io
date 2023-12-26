@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pajo Data Hub</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Joshua Akintayo</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Joshua Akintayo</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <div class="profile-img">
+          <img src="./assets//IMG_3763-transformed.png" alt="" srcset="">
+        </div>
+        <!-- <img src="./assets/profile-pic.png" alt="Joshua profile picture" /> -->
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Joshua Akintayo</h1>
+        <p class="section__text__p2">Data Analyst</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/Joshua_resume.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <a href="https://www.linkedin.com/in/joshua-akintayo-0ab3551a7/" target="_blank">
+            <img src="./assets/linkedin.png" alt="My LinkedIn profile" class="icon">
+        </a>
+        <a href="https://github.com/Pajo00" target="_blank">
+          <img src="./assets/github.png" alt="My LinkedIn profile" class="icon">
+        </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About section -->
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <div class="about-img">
+            <img src="./assets/port_pic-removebg-preview.png" alt="" srcset="">
+          </div>
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/experience.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>1+ years <br />Data and Business Analytics</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>B.Sc. Bachelors Degree<br />Associate Data Analyst</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              I am a self-taught Data and Business Intelligence Analyst who navigated a transformative journey from 
+              non-technical background. Proficient in Spreadsheets, SQL, Power BI, Tableau, and Python, I specialize in 
+              discovering valuable information and patterns within data, enabling businesses to make informed,
+              data-driven decisions.
+            </p>
+            <p>
+              My expertise spans database management, ETL processes, 
+              meticulous data cleaning, comprehensive analysis, 
+              and immersive visualization techniques.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <!-- ----------------------- -->
+
+    <!-- Experience section -->
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title-1">Technical Applications</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>MS Excel</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Google Sheets</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Power BI</h3>
+                  <p>Experienced</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Tableau</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>IBM SPSS  </h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Git</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title-1">Language and Database</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>SQL</h3>
+                  <p>Intermediate</p>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Python</h3>
+                  <p>Intermediate</p>
+                
+                
+       
+      
+    </section>
+    <!-- ------------------------- -->
+
+    <!-- Projects section -->
+    <section id="projects">
+      <p class="section__text__p1">Explore My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers-projects">
+          <div class="color-container details-container-1">
+            <div class="article-container">
+              <div class="img-container">
+                <img
+                  src="./assets/Movie rental.jpg"
+                  alt="Project 1"
+                  class="project-img"
+                />
+              </div>
+            </div>
+            <h2 class="experience-sub-title project-title">
+              Movie Rental Business<br/>Analysis with SQL
+            </h2>
+            <div class="btn-container">
+              <a href="https://github.com/Pajo00/Exploratory-Analysis-of-Movie-Dataset-with-SQL" target="_blank">
+
+                <button
+                  class="btn btn-color-2 project-btn source-file"
+                >
+                  GitHub
+                </button>
+              </a>
+
+              <a href="https://github.com/Pajo00/Exploratory-Analysis-of-Movie-Dataset-with-SQL/blob/main/Movies%20Dataset.sql" target="_blank">
+              <button
+                class="btn btn-color-2 project-btn"
+              >
+                  View Project
+                </button>
+              </a>
+
+            </div>
+          </div>
+
+          <!-- 2nd Project -->
+          <div class="color-container details-container-1">
+            <div class="article-container">
+              <div class="img-container">
+                <img
+                  src="./assets/sm.jpg"
+                  alt="Project 1"
+                  class="project-img"
+                />
+              </div>
+            </div>
+            <h2 class="experience-sub-title project-title">
+              Social Media Analysis<br/>with Power BI
+            </h2>
+            <div class="btn-container">
+              <a href="https://portfolio.diceytech.co.uk/project/1696689088976x111304505078054910?utm_source=brevo&utm_campaign=Playhouse%20Engagement%206&utm_medium=email" target="_blank">
+
+                <button
+                  class="btn btn-color-2 project-btn source-file"
+                >
+                  View Project
+                </button>
+              </a>
+
+              <a href="https://app.powerbi.com/view?r=eyJrIjoiZGI0ZjRmOTctOGRlZi00NWI5LTg0NTktZmI3YzAxNWYzYWZiIiwidCI6ImE1NTQ1NDcyLWY5ODEtNDc2Mi1iNTVhLTQ3OTQzZDIzY2I0NCIsImMiOjh9" target="_blank">
+              <button
+                class="btn btn-color-2 project-btn"
+              >
+                  Dashboard
+                </button>
+              </a>
+
+            </div>
+          </div>
+
+
+                  <!-- 3rd Project -->
+        <div class="color-container details-container-1">
+          <div class="article-container">
+            <div class="img-container">
+              <img
+                src="./assets/Hotel booking.jpg"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+          </div>
+          <h2 class="experience-sub-title project-title">
+            Hotel Booking <br/> Analysis with SQL
+          </h2>
+          <div class="btn-container">
+            <a href="https://github.com/Pajo00/Hotel-Booking-EDA" target="_blank">
+
+              <button
+                class="btn btn-color-2 project-btn source-file"
+              >
+                GitHub
+              </button>
+            </a>
+
+            <a href="https://github.com/Pajo00/Hotel-Booking-EDA/blob/main/Hotel%20Booking%20EDA.sql" target="_blank">
+            <button
+              class="btn btn-color-2 project-btn"
+            >
+                View Project
+              </button>
+            </a>
+
+          </div>
+        </div>
+          
+          <!-- 5th Project -->
+        <div class="color-container details-container-1">
+          <div class="article-container">
+            <div class="img-container">
+              <img
+                src="./assets/hpn.png"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+          </div>
+          <h2 class="experience-sub-title project-title">
+            Sales Performance<br/>Analysis with PowerBI
+          </h2>
+          <div class="btn-container">
+            <a href="https://app.powerbi.com/view?r=eyJrIjoiMmMxZmU4OTYtZjMxNS00MDM0LTlmNGItMTE2MTViNTU3NGJjIiwidCI6ImE1NTQ1NDcyLWY5ODEtNDc2Mi1iNTVhLTQ3OTQzZDIzY2I0NCIsImMiOjh9" target="_blank">
+
+              <button
+                class="btn btn-color-2 project-btn source-file"
+              >
+                Dashboard
+              </button>
+            </a>
+
+            <!-- <a href="https://app.powerbi.com/view?r=eyJrIjoiMjFiMzExOWQtNGU1ZS00MTg4LWExMTItYzU5Yzc5MmQyYzk4IiwidCI6IjJiYjUyNzlmLThkMTUtNDBlNy05OWUyLTJjYzIzMTg0YzE2NiIsImMiOjh9" target="_blank">
+            <button
+              class="btn btn-color-2 project-btn"
+            >
+                Dashboard
+              </button>
+            </a> -->
+
+          </div>
+        </div>
+
+        <!-- 5th Project -->
+        <div class="color-container details-container-1">
+          <div class="article-container">
+            <div class="img-container">
+              <img
+                src="./assets/movie-theater-1241422.jpg"
+                alt="Project 1"
+                class="project-img"
+              />
+            </div>
+          </div>
+          <h2 class="experience-sub-title project-title">
+            Movie Correlation <br/>Analysis with Python
+          </h2>
+          <div class="btn-container">
+            <a href="https://github.com/Pajo00/Movie-Correlation-Project/blob/main/Movie%20Correlation%20Portfolio%20Project.ipynb" target="_blank">
+
+              <button
+                class="btn btn-color-2 project-btn source-file"
+              >
+                View Project
+              </button>
+            </a>
+
+            <!-- <a href="https://app.powerbi.com/view?r=eyJrIjoiMjFiMzExOWQtNGU1ZS00MTg4LWExMTItYzU5Yzc5MmQyYzk4IiwidCI6IjJiYjUyNzlmLThkMTUtNDBlNy05OWUyLTJjYzIzMTg0YzE2NiIsImMiOjh9" target="_blank">
+            <button
+              class="btn btn-color-2 project-btn"
+            >
+                Dashboard
+              </button>
+            </a> -->
+
+          </div>
+        </div>
+
+        </div>
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+    <!-- -------------------- -->
+
+    <!-- Contact section -->
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:akinspajo@gmail.com">akinspajo@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img src="./assets/linkedin.png" alt="LinkedIn icon" class="icon contact-icon" />
+          <p><a href="https://www.linkedin.com/in/joshua-akintayo-0ab3551a7/" target="_blank">LinkedIn</a></p>
+        </div>
+      </div>
+    </section>
+    <!-- ----------------------- -->
+
+    <!-- footer section -->
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2023 Joshua Akintayo. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
